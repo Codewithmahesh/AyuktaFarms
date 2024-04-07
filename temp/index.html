@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        .home .content {
+            text-align: center;
+            padding-top: 6rem;
+            margin: 2rem auto;
+            max-width: 70rem;
+        }
+
+        .home .content h3 {
+            color: #fff;
+            font-size: 4.5rem;
+            text-transform: uppercase;
+        }
+
+        .home .content h3 span {
+            color: var(--main-color);
+            text-transform: uppercase;
+        }
+
+        .home .home-slider .swiper-slide {
+            overflow: hidden;
+            border-radius: 1.5rem;
+            height: 50rem;
+            width: 50rem;
+        }
+
+        .home .home-slider .swiper-slide img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>It's time to celebrate! The best <span>event organizers</span></h3>
+            <a href="#" class="btn">Contact us</a>
+        </div>
+
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/slide-0.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-7.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-8.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".home-slider", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            }
+        });
+
+    </script>
+</body>
+
+</html>
