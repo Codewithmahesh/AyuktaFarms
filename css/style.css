@@ -125,13 +125,17 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 9%;
+  height: 9rem;
 }
 
-.header .logo {
-  font-weight: bolder;
-  color: #fff;
-  font-size: 2.5rem;
+.header .logo img{
+  width: 12rem;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-top:4rem;
 }
+
 
 .header .logo span {
   color: var(--main-color);
@@ -515,7 +519,7 @@ body {
 }
 
 .credit {
-  padding: 1.5rem 0rem ;
+  padding: 1.5rem 0rem;
   font-weight: 600;
   margin-top: 0.8rem;
   text-align: center;
@@ -624,4 +628,3 @@ textarea {
   font-size: 1.5rem;
   font-weight: 600;
 }
-
