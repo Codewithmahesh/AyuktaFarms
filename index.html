@@ -268,22 +268,29 @@
 
     <!-- Contact US Starts -->
 
-    <section class="contact" id="contact">
-        <h1 class="heading"> <span>contact</span> us </h1>
-        <form action="">
-            <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+    <section class="container">
+        <h1 class="heading"> <span>Contact</span> Us </h1>
+        <section class="contact" id="contact">
+            <div class="contact-form">
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
             </div>
-            <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="subject">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.360318268997!2d106.81757431514732!3d-6.224703295482016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f36598d4d489%3A0x89e4899e7f540af3!2sMonas!5e0!3m2!1sen!2sid!4v1649488940629!5m2!1sen!2sid"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
-        </form>
-
-    </section>
+        </section>
     </section>
 
     <!-- Contact US Ends -->
