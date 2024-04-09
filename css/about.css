@@ -66,6 +66,27 @@ section {
   height: 9rem;
 }
 
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  background: #3a3a3a;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #666666;
+}
+
+.btn a {
+  color: #fff;
+}
+
 .header .logo img {
   width: 12rem;
   background-color: #fff;
@@ -73,6 +94,7 @@ section {
   padding: 1rem;
   margin-top: 4rem;
 }
+
 .header .navbar a {
   font-size: 1.7rem;
   color: #fff;
@@ -139,10 +161,13 @@ section {
 .headingAbout {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 2rem;
-  font-size: 3rem;
+  margin-bottom: 8rem;
+  font-size: 6rem;
   letter-spacing: 0.2rem;
 }
+
 
 .about .row,
 .row {
