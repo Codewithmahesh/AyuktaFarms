@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 
 :root {
   --main-color: rgb(240, 179, 66);
@@ -216,9 +217,10 @@ body {
 }
 
 .about .row .content p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding: 1rem 0;
   line-height: 2;
+  font-weight: 600;
 }
 
 .about .heading {
@@ -405,7 +407,7 @@ body {
 
 .contact input[type="submit"] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #333;
   color: white;
   padding: 15px;
   border: none;
@@ -415,7 +417,7 @@ body {
 }
 
 .contact input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #a3a3a3;
 }
 
 .contact textarea {
@@ -513,25 +515,22 @@ body {
 }
 
 .credit {
+  padding: 1.5rem 0rem ;
   font-weight: 600;
   margin-top: 0.8rem;
   text-align: center;
   font-size: 2.5rem;
   text-transform: capitalize;
-  color: var(--primary-color);
-  border-top: 0.1rem solid #010100;
-  background-color: #333;
+  /* color: var(--primary-color); */
+  color: #f4f4f4;
+  border-top: 0.1rem solid #000;
+  background-color: #1e1c2a;
 }
 
 .credit span {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   color: #fff;
 }
-
-
-
-
-
 
 /* media queries  */
 
@@ -618,3 +617,11 @@ body {
 .content h3 {
   color: #122e25;
 }
+
+.inputBox input,
+textarea {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
