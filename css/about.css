@@ -37,10 +37,12 @@ html::-webkit-scrollbar-thumb {
   background: var(--main-color);
   border-radius: 5rem;
 }
-
+body{
+  background: #f3e7db;
+}
 section {
   padding: 2rem 9%;
-  background: #ffffff;
+  background: #f3e7db;
 }
 
 .heading {
@@ -215,7 +217,7 @@ section {
 
 .footer {
   border-top: 2px solid #626262;
-  background: #e8e8e8;
+  background: #f3e7db;
   text-align: center;
   padding: 3rem;
 }
