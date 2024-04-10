@@ -11,7 +11,7 @@ menu.onclick = () => {
 document.addEventListener('DOMContentLoaded', () => {
     let title = document.querySelector('.main_heading');
     let originalText = title.textContent.trim();
-    let name = "About Us";
+    let name = "Products";
     let dots = "..";
     let index = 0;
     let effectApplied = false;
