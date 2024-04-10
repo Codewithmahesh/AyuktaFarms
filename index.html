@@ -13,6 +13,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!--=============================================== 
+        FONTAWSOME ICONS
+     ===============================================-->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+    />
+
+    <style>
+    .swiper {
+      width: 100%;
+      height: fit-content;
+      padding-bottom: 2rem;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .reviewCard {
+        margin: 5rem 0rem ;
+    }
+
+</style>
 
 </head>
 
@@ -82,7 +113,8 @@
                     Get ready to go down the memory lane!
                 </span>
             </div>
-            <div class="fas fa-tag">
+            <div class="fas fa-tag">    
+                <a href="<?php echo base_           
                 <span id="mt">
                     Get ready to go down the memory lane!
                 </span>
@@ -96,14 +128,7 @@
         </marquee>
     </div>
 
-
-
-
-
-
-
     <!-- About Starts -->
-
     <section class="about" id="about">
 
         <h1 class="heading"><span>about</span> us </h1>
@@ -135,9 +160,74 @@
 
     <!-- About Ends -->
 
+    <section>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">  
+        <div class="center">
+            <div class="reviewCard card d-flex flex-column bg-white">
+              <div class="name">Mr. Pranjal Shahane</div>
+              <div class="review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Fuga ex officiis perspiciatis dolorum possimus quia,
+                aliquid laudantium magni aliquam
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">  
+        <div class="center">
+            <div class="reviewCard card d-flex flex-column bg-white">
+              <div class="name">Mr. Pranjal Shahane</div>
+              <div class="review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Fuga ex officiis perspiciatis dolorum possimus quia,
+                aliquid laudantium magni aliquam
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">  
+        <div class="center">
+            <div class="reviewCard card d-flex flex-column bg-white">
+              <div class="name">Mr. Pranjal Shahane</div>
+              <div class="review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Fuga ex officiis perspiciatis dolorum possimus quia,
+                aliquid laudantium magni aliquam
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-
+      </div>
+    <div class="swiper-pagination"></div>
+  </div>
+    </section>
 
     <!-- Pricing Starts -->
 
@@ -235,10 +325,6 @@
 
     <!-- Gallery section Ends -->
 
-
-
-
-
     <!-- Contact US Starts -->
 
     <section class="container">
@@ -317,6 +403,15 @@
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+          },
+        });
+    </script>
     <script src="js/script.js"></script>
 </body>
 
