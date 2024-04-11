@@ -1,110 +1,89 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/sp.css">
-    <!-- swiper js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 </head>
 
 <body>
 
-
-
     <header class="header">
         <a href="index.html" class="logo">
-            <image src="images/Avyukt Farms Logo.png" class="logo">
+            <image src="../images/Avyukt Farms Logo.png" class="logo">
         </a>
         <nav class="navbar">
             <a href="index.html">home</a>
             <a href="about.html">about</a>
             <a href="product.html">Products</a>
-            <a href="index.html">our gallery</a>
+            <a href="#gallery">our gallery</a>
             <a href="#review">review</a>
             <a href="#contact">contact</a>
         </nav>
         <div id="menu-bars" class="fas fa-bars"></div>
     </header>
 
-
-    <div class="marq">
-
-        <marquee behavior="scroll" direction="left" loop="-1">
-            <div class="fas fa-tag">
-                <span id="mt">
-                    Get ready to go down the memory lane!
-                </span>
-            </div>
-            <div class="fas fa-tag">
-                <span id="mt">
-                    Get ready to go down the memory lane!
-                </span>
-            </div>
-            <div class="fas fa-tag">
-                <span id="mt">
-                    Get ready to go down the memory lane!
-                </span>
-            </div>
-            <div class="fas fa-tag">
-                <span id="mt">
-                    Get ready to go down the memory lane!
-                </span>
-            </div>
-            <div class="fas fa-tag">
-                <span id="mt">
-                    Get ready to go down the memory lane!
-                </span>
-            </div>
-
-        </marquee>
-    </div>
-
-
-    <section class="product-section">
-        <div class="product-card">
-            <div class="left-section">
-                <div class="product-images">
-                    <img src="https://chaitanya.services/Avyukth%C2%A0Farms/images/products/product-1.jpg"
-                        alt="Product Main Image">
-                    <div class="small-images">
-                        <img src="https://chaitanya.services/Avyukth%C2%A0Farms/images/products/product-1.jpg"
-                            alt="Small Image 1">
-                        <img src="https://chaitanya.services/Avyukth%C2%A0Farms/images/products/product-2.jpg"
-                            alt="Small Image 2">
+    <section class="card-wrapper">
+        <div class="Product-card">
+            <!-- card left -->
+            <div class="product-imgs">
+                <div class="img-display">
+                    <div class="img-showcase">
+                        <img src="https://vaaradhifarms.com/cdn/shop/files/WhatsAppImage2024-03-26at7.23.32PM.jpg?v=1711461650&width=400"
+                            alt="shoe image" />
+                        <!-- <img src="https://vaaradhifarms.com/cdn/shop/files/WhatsAppImage2024-03-26at7.23.32PM.jpg?v=1711461650&width=400"
+                            alt="shoe image" /> -->
+                    </div>
+                </div>
+                <div class="img-select">
+                    <div class="img-item">
+                        <a href="#" data-id="1">
+                            <img src="https://vaaradhifarms.com/cdn/shop/files/WhatsAppImage2024-03-26at7.23.32PM.jpg?v=1711461650&width=400"
+                                alt="shoe image" />
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="2">
+                            <img src="https://vaaradhifarms.com/cdn/shop/files/WhatsAppImage2024-03-26at7.23.32PM.jpg?v=1711461650&width=400"
+                                alt="shoe image" />
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="right-section">
-                <div class="product-info">
-                    <h2>Product Name</h2>
-                    <p>Product description goes here...</p>
-                    <p>Available sizes: S, M, L, XL</p>
-                    <p>Price: $XX.XX</p>
+            <!-- card right -->
+            <div class="product-content">
+                <h2 class="product-title">Product Name</h2>
+
+                <h2 class="product-price-title">Price of Product :</h2>
+                <div class="price">
+                    <div class="new-price">Rs. ₹ 1000</div>
+                    <div class="old-price" style="text-decoration: line-through; color: red;">Rs. ₹ 1200</div>
                 </div>
-                <div class="action-buttons">
-                    <button class="btn">Buy Now</button>
-                </div>
+
+
+                <h3 class="sub-title">Sizes Available</h3>
+                <ul class="sizes">
+                    <li>Size 1</li>
+                    <li>Size 2</li>
+                    <li>Size 3</li>
+                </ul>
+
+                <h1 class="sub-title"> About Product </h1>
+                <p class="desc"> Description of the product </p>
+
+                <a href="tel:+919579896842">
+                    <button class="btn" style="margin: 4.52rem auto;">Get Product Now</button>
+                </a>
+
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
 
     <section class="footer">
         <div class="box-container">
@@ -137,7 +116,6 @@
             created by <span> AVYUKTH FARMS </span> all rights reserved!
         </div>
     </section>
-
 
 
 
