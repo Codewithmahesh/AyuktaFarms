@@ -177,8 +177,11 @@ img {
 
 .img-showcase img {
     min-width: 100%;
+    padding: 1rem;
     height: auto;
+   
 }
+
 
 .img-select {
     display: flex;
