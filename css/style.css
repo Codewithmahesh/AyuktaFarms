@@ -85,11 +85,11 @@ html::-webkit-scrollbar-thumb {
 
 section {
   padding: 2rem 9%;
-  /* background: #e8e8e8; */
+  background: #F3E7DB;
 }
 
 body {
-  background-color: #efe3d7;
+  background-color: #F3E7DB;
 }
 
 .btn {
